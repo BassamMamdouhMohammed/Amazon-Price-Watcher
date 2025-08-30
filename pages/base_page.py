@@ -34,3 +34,15 @@ class BasePage:
             return True
         except:
             return False
+        
+    def is_element_present(self, locator):
+        """Check if element is present in the DOM."""
+        try:
+            self.find(locator)
+            return True
+        except:
+            return False
+        
+    def wait_for_title(self, title):
+        """Wait until the page title contains the given text."""
+        self.wait.until(EC.title_contains(title))

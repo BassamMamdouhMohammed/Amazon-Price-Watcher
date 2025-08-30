@@ -34,7 +34,7 @@ This are the skills I showcased during this project:
 ---
 
 ## 📂 Project Structure
-
+'''
 ├── 📁 .idea/ 🚫 (auto-hidden)
 ├── 📁 .pytest_cache/
 │   ├── 📁 v/
@@ -74,5 +74,6 @@ This are the skills I showcased during this project:
 ├── 🐍 main.py
 ├── ⚙️ pytest.ini
 └── 📄 requirements.txt
+'''
 
 # TO BE CONTINUED AND STAY TOONED
