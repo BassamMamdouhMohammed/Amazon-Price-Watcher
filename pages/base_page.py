@@ -1,7 +1,7 @@
 # pages/base_page.py
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
+import pytest
 class BasePage:
     """Base class for all pages, provides common Selenium actions."""
 
@@ -26,7 +26,7 @@ class BasePage:
     def get_text(self, locator):
         """Get text of element."""
         return self.find(locator).text
-
+    
     def is_visible(self, locator):
         """Check if element is visible."""
         try:

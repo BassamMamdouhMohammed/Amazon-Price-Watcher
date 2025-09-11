@@ -32,4 +32,13 @@ class SearchResultsPage(BasePage):
         else:
             raise IndexError("Product index out of range")
     
+    def open_product_by_review(self):
+        """Open a product detail page by its index in the search results."""
+        self.click(self.FOUR_STAR_UP)
+
+    def go_to_product_page(self):
+        """Navigate to the Product Page."""
+        from pages.product_page import ProductPage
+        return ProductPage(self.driver)
+    
     

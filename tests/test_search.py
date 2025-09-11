@@ -3,6 +3,8 @@ from pages.home_page import HomePage
 from selenium.webdriver.support import expected_conditions as EC
 import pytest
 import time
+
+
 def test_search_product(browser):
     """Verify that product search works on Amazon."""
     home = HomePage(browser)

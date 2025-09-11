@@ -76,4 +76,3 @@ This are the skills I showcased during this project:
 └── 📄 requirements.txt
 '''
 
-# TO BE CONTINUED AND STAY TOONED
